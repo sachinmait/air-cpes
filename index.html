@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>AIR-CPES 2027 | 1st International Conference on AI for Resilient Cyber-Physical Energy Systems</title>
+  <meta name="description" content="1st International Conference on Artificial Intelligence for Resilient Cyber-Physical Energy Systems (AIR-CPES 2027), March 8–9, 2027. Organised by MAIT Delhi, India & Birmingham City University, UK under the IEEE Smart Cities initiative. Proceedings in Springer LNEE (Two Volumes)." />
+  <meta name="keywords" content="AIR-CPES 2027, Artificial Intelligence, Cyber-Physical Energy Systems, Smart Grids, Microgrids, Springer LNEE, MAIT Delhi, Birmingham City University, Microsoft CMT, IEEE Smart Cities" />
+  <link rel="canonical" href="https://www.air-cpes.com/" />
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AIR-CPES 2027 — AI for Resilient Cyber-Physical Energy Systems" />
+  <meta property="og:description" content="March 8–9, 2027 · Hybrid Mode · MAIT Delhi, India & Birmingham City University, UK · Two-Volume Springer LNEE Proceedings." />
+  <meta property="og:url" content="https://www.air-cpes.com/" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Schema.org Academic Event Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "1st International Conference on Artificial Intelligence for Resilient Cyber-Physical Energy Systems (AIR-CPES 2027)",
+    "startDate": "2027-03-08T09:00:00+05:30",
+    "endDate": "2027-03-09T18:30:00+05:30",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": [
+      {
+        "@type": "Place",
+        "name": "Maharaja Agrasen Institute of Technology (MAIT)",
+        "address": "Plot No. 1, Sector 22, PSP Area, Rohini, Delhi 110086, India"
+      },
+      {
+        "@type": "Place",
+        "name": "Birmingham City University (BCU)",
+        "address": "Millennium Point, Curzon St, Birmingham B4 7AP, United Kingdom"
+      }
+    ],
+    "organizer": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Maharaja Agrasen Institute of Technology (MAIT), Delhi, India"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Birmingham City University (BCU), United Kingdom"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement">
+    <div class="wrap bar-inner">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <span class="ann-badge">Call for Papers Open</span>
+        <span>Paper Submission Deadline: <strong>January 10, 2027</strong> · Selected papers considered for <strong>Two-Volume Springer LNEE Proceedings</strong></span>
+      </div>
+      <div class="ann-links">
+        <a href="#submission">Microsoft CMT Guidelines</a>
+        <span>·</span>
+        <a href="#dates">Important Dates</a>
+        <span>·</span>
+        <a href="#contact">Contact Secretariat</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a href="#home" class="brand" aria-label="AIR-CPES 2027 Home">
+        <div class="brand-emblem">AC</div>
+        <div class="brand-text">
+          <div class="brand-title">AIR-CPES<span>2027</span></div>
+          <div class="brand-sub">MAIT Delhi &amp; BCU UK</div>
+        </div>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary Navigation">
+        <a href="#about">About</a>
+        <a href="#tracks">Tracks &amp; CFP</a>
+        <a href="#speakers">Keynotes</a>
+        <a href="#dates">Dates</a>
+        <a href="#submission">CMT Submission</a>
+        <a href="#publication">Springer LNEE</a>
+        <a href="#registration">Registration</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#committee">Committee</a>
+        <a href="#directory">Advisory &amp; Reviewers</a>
+        <a href="#venues">Venues</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle-btn" type="button" title="Toggle Dark/Light Theme" aria-label="Toggle Dark/Light Theme">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button class="btn btn-amber btn-sm" type="button" data-open-cmt-modal>
+          Submit Paper (CMT)
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero on-ink" id="home">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-badges">
+            <span class="pill-badge">1st International Conference · Hybrid Mode</span>
+            <span class="pill-badge springer">Springer LNEE · Two Volumes</span>
+            <span class="pill-badge ieee">IEEE Smart Cities Initiative</span>
+          </div>
+
+          <h1>
+            Artificial Intelligence for <span class="accent-gradient">Resilient Cyber-Physical Energy Systems</span>
+          </h1>
+
+          <p class="hero-lede">
+            AIR-CPES 2027 convenes global researchers, academicians, utilities, and industry pioneers shaping intelligent, cyber-secure, and self-healing next-generation energy infrastructure. Hosted in parallel hybrid sessions across <strong>New Delhi, India</strong> and <strong>Birmingham, United Kingdom</strong>.
+          </p>
+
+          <div class="hero-meta-cards">
+            <div class="meta-card">
+              <div class="meta-label">Conference Dates</div>
+              <div class="meta-val">March 8–9, 2027</div>
+              <div class="meta-sub">2 Full Days · Parallel Hybrid Tracks</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Host Venue (India)</div>
+              <div class="meta-val">MAIT, Rohini, New Delhi</div>
+              <div class="meta-sub">Affiliated to GGSIPU, Delhi, India</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Co-Host Venue (UK)</div>
+              <div class="meta-val">Birmingham City University</div>
+              <div class="meta-sub">Millennium Point, Birmingham, UK</div>
+            </div>
+          </div>
+
+          <div class="hero-cta-row">
+            <button class="btn btn-amber" type="button" data-open-cmt-modal>
+              🚀 Submit Manuscript via Microsoft CMT
+            </button>
+            <a class="btn btn-ghost-dark" href="#tracks">
+              Explore 8 Thematic Tracks
+            </a>
+            <button class="btn btn-ghost-dark" type="button" data-print-cfp>
+              📄 Download / Print CFP Brochure
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Panel: Live Countdown + Microsoft CMT Quick Portal -->
+        <aside class="hero-panel" aria-label="Submission Countdown and Portal">
+          <div class="panel-header">
+            <span class="live-dot" id="cd-target-label">Submission Deadline Countdown</span>
+            <span style="font-size:0.75rem;color:var(--text-on-ink-muted);">Jan 10, 2027</span>
+          </div>
+
+          <div class="countdown-grid" role="timer" aria-live="polite">
+            <div class="cd-box">
+              <div class="cd-num" id="cd-days">00</div>
+              <div class="cd-unit">Days</div>
+            </div>
+            <div class="cd-box">
+              <div class="cd-num" id="cd-hours">00</div>
+              <div class="cd-unit">Hours</div>
+            </div>
+            <div class="cd-box">
+              <div class="cd-num" id="cd-mins">00</div>
+              <div class="cd-unit">Minutes</div>
+            </div>
+            <div class="cd-box">
+              <div class="cd-num" id="cd-secs">00</div>
+              <div class="cd-unit">Seconds</div>
+            </div>
+          </div>
+
+          <div class="cmt-box">
+            <div class="cmt-box-title">
+              <span>Microsoft CMT Submission Portal</span>
+              <span class="ann-badge" style="font-size:0.65rem;">Double-Blind</span>
+            </div>
+            <p>
+              Manuscripts (up to 8 pages in Springer LNEE format, PDF without author names) are managed exclusively via Microsoft CMT.
+            </p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+              <button class="btn btn-primary btn-sm" type="button" data-open-cmt-modal style="flex:1;">
+                Open CMT Portal &amp; Checklist
+              </button>
+              <button class="btn btn-ghost-dark btn-sm" id="download-ics-btn" type="button" title="Add Key Dates to Calendar">
+                📅 +Calendar (.ics)
+              </button>
+            </div>
+          </div>
+
+          <div style="display:flex;justify-content:space-between;font-size:0.76rem;color:var(--text-on-ink-muted);">
+            <span>✓ Plagiarism Limit: &lt; 15% (Turnitin)</span>
+            <span>✓ 3 Independent Reviewers / Paper</span>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Institutional & Technical Collaborators Strip -->
+      <div class="partner-strip">
+        <div class="partner-item">
+          <div class="partner-icon">MAIT</div>
+          <div class="partner-info">
+            <strong>MAIT, New Delhi, India</strong>
+            <span>Host Institution (Affiliated to GGSIPU)</span>
+          </div>
+        </div>
+        <div class="partner-item">
+          <div class="partner-icon">BCU</div>
+          <div class="partner-info">
+            <strong>Birmingham City University, UK</strong>
+            <span>Co-Organizing Partner Institution</span>
+          </div>
+        </div>
+        <div class="partner-item">
+          <div class="partner-icon" style="color:#FBBF24;border-color:rgba(251,191,36,0.35);background:rgba(251,191,36,0.12);">LNEE</div>
+          <div class="partner-info">
+            <strong>Springer LNEE Series</strong>
+            <span>Two-Volume Conference Proceedings</span>
+          </div>
+        </div>
+        <div class="partner-item">
+          <div class="partner-icon" style="color:#34D399;border-color:rgba(52,211,153,0.35);background:rgba(52,211,153,0.12);">IEEE</div>
+          <div class="partner-info">
+            <strong>IEEE Smart Cities Initiative</strong>
+            <span>Technical Collaboration Umbrella</span>
+          </div>
+        </div>
+        <div class="partner-item">
+          <div class="partner-icon">CMT</div>
+          <div class="partner-info">
+            <strong>Microsoft CMT</strong>
+            <span>Paper Submission &amp; Peer Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About the Conference & Two-Volume Architecture -->
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">About the Conference</div>
+          <h2 class="sec-title">Energy infrastructure is evolving into cyber-physical intelligence</h2>
+          <p class="sec-desc">
+            Bridging electrical power engineering, artificial intelligence, cybersecurity, edge computing, and sustainable e-mobility.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-layout">
+        <div class="prose-block">
+          <p>
+            Rising electricity demand, global decarbonisation targets, the transition of conventional consumers to active prosumers, and the requirement of ultra-secure communication interfaces are transforming traditional, infrastructure-centric power grids into complex, bidirectional, data-rich <strong>cyber-physical energy systems (CPES)</strong>. Physical assets—generation units, transmission and distribution networks, microgrids, battery storage, electric vehicles, and smart appliances—are now tightly coupled with sensing, communication, computing, and automated control layers.
+          </p>
+          <p>
+            While this digital convergence unlocks transformative opportunities for <strong>Artificial Intelligence (AI)</strong>—transforming telemetry from SCADA systems, smart meters, PMUs, IIoT sensors, and weather models into real-time forecasting, state estimation, and autonomous control—it simultaneously introduces cross-layer cyber-physical vulnerabilities, cascading fault risks, and climate-induced disturbances.
+          </p>
+          <p>
+            Organised jointly by <strong>Maharaja Agrasen Institute of Technology (MAIT), Delhi, India</strong> and <strong>Birmingham City University (BCU), United Kingdom</strong> under the <strong>IEEE Smart Cities initiative</strong>, <strong>AIR-CPES 2027</strong> provides a premier interdisciplinary forum connecting power engineering, computer science, machine learning, communications, cybersecurity, and energy policy.
+          </p>
+        </div>
+
+        <div class="volume-cards">
+          <div class="vol-card">
+            <span class="vol-tag">Springer LNEE · Volume I (~50 Papers, ~430 Pages)</span>
+            <h3>AI for Smart Grids, Microgrids &amp; Cyber-Physical Resilience</h3>
+            <p>
+              Explores AI across the planning and operation of smart grids, microgrids, and distributed energy systems—data-driven forecasting and optimisation, AI-based monitoring, control, protection, fault diagnosis, digital twins, predictive maintenance, and AI-enabled cyber-threat, intrusion, and anomaly detection for resilient, self-healing architectures.
+            </p>
+          </div>
+
+          <div class="vol-card vol-2">
+            <span class="vol-tag">Springer LNEE · Volume II (~50 Papers, ~430 Pages)</span>
+            <h3>Energy Storage, Electric Mobility, Smart Cities &amp; Decentralised Systems</h3>
+            <p>
+              Focuses on the synergy between energy networks, electric mobility, and storage—AI-enabled battery management, SoC/SoH/RUL estimation, second-life battery assessment, smart charging, battery swapping, V2G/V2B, intelligent P2P energy markets, smart buildings and cities, and rural/decentralised microgrids in emerging economies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Conference Metrics -->
+      <div class="stats-banner">
+        <div class="stat-card">
+          <div class="stat-num">2 Volumes</div>
+          <div class="stat-label">Springer LNEE Proceedings</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">8 Tracks</div>
+          <div class="stat-label">Interconnected Research Themes</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">~40%</div>
+          <div class="stat-label">Expected Acceptance Rate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">112+</div>
+          <div class="stat-label">Confirmed International &amp; National Reviewers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">8 Pages</div>
+          <div class="stat-label">Max Length per Manuscript</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">&lt; 15%</div>
+          <div class="stat-label">Mandatory Turnitin Similarity Cap</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call for Papers & 8 Thematic Tracks -->
+  <section class="tint" id="tracks">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Call for Papers</div>
+          <h2 class="sec-title">Eight Thematic Tracks &amp; Core Research Topics</h2>
+          <p class="sec-desc">
+            We invite original, unpublished research manuscripts spanning theoretical advances, algorithms, digital twins, and field case studies.
+          </p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-sm" type="button" data-open-cmt-modal>
+            Submit to a Track via CMT →
+          </button>
+        </div>
+      </div>
+
+      <!-- Interactive Filter & Search Bar for Tracks -->
+      <div class="filter-bar">
+        <div class="filter-Tabs" role="tablist" aria-label="Filter Tracks by Proceedings Volume">
+          <button class="filter-btn active" type="button" data-track-filter="all">All 8 Tracks</button>
+          <button class="filter-btn" type="button" data-track-filter="Volume I">Volume I Focus</button>
+          <button class="filter-btn" type="button" data-track-filter="Volume II">Volume II Focus</button>
+        </div>
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input
+            type="search"
+            id="track-search"
+            class="search-input"
+            placeholder="Filter tracks by topic (e.g., Digital Twins, V2G, LLM)..."
+            aria-label="Search conference tracks"
+          />
+        </div>
+      </div>
+
+      <!-- 8 Thematic Tracks Grid (Populated by app.js) -->
+      <div class="track-grid" id="tracks-grid"></div>
+
+      <!-- 19 Core Topics List -->
+      <div style="margin-block-start: 56px;" id="topics">
+        <div class="eyebrow">Core Subject Areas</div>
+        <h3 style="font-size: 1.4rem; margin-block-end: 18px;">19 Key Topics of Interest</h3>
+        <ul class="topic-pills-grid" id="topics-grid"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keynote & Plenary Speakers (Placeholder Profiles) -->
+  <section id="speakers">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Plenary &amp; Keynote Lineup</div>
+          <h2 class="sec-title">Distinguished Keynote Speakers</h2>
+          <p class="sec-desc">
+            Featuring global leaders in smart grids, cybernetics, power electronics, and energy AI across our India and UK hybrid stages.
+            <em>(Speaker portraits and talk titles below include placeholders that can be updated in <code>data.js</code> as confirmations are finalized.)</em>
+          </p>
+        </div>
+      </div>
+
+      <div class="speakers-grid" id="speakers-grid"></div>
+    </div>
+  </section>
+
+  <!-- Important Dates & Timeline -->
+  <section class="on-ink" id="dates">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Milestone Schedule</div>
+          <h2 class="sec-title">Important Dates &amp; Deadlines</h2>
+          <p class="sec-desc">
+            All deadlines are at 23:59 AoE (Anywhere on Earth). Authors are encouraged to submit early via Microsoft CMT.
+          </p>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <button class="btn btn-amber btn-sm" type="button" data-open-cmt-modal>
+            Submit Paper Now
+          </button>
+        </div>
+      </div>
+
+      <div class="dates-grid" id="dates-grid"></div>
+    </div>
+  </section>
+
+  <!-- Paper Submission (Microsoft CMT Placeholder) & Double-Blind Review Policy -->
+  <section id="submission">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Author Guidelines &amp; Peer Review</div>
+          <h2 class="sec-title">Paper Submission via Microsoft CMT</h2>
+          <p class="sec-desc">
+            AIR-CPES 2027 enforces a rigorous double-blind peer review and strict anti-plagiarism policy in compliance with Springer Nature publishing standards.
+          </p>
+        </div>
+      </div>
+
+      <div class="submission-layout">
+        <!-- Left: Microsoft CMT Portal Card -->
+        <div class="cmt-portal-card">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;margin-block-end:14px;">
+            <span class="ann-badge">Official Submission System</span>
+            <span style="font-size:0.76rem;color:#38BDF8;font-family:var(--font-mono);">Microsoft CMT</span>
+          </div>
+
+          <h3>Submit Your Manuscript on Microsoft CMT</h3>
+          <p>
+            All full-length original research papers (maximum <strong>8 pages</strong> in standard single-column Springer LNEE format, PDF file) must be submitted electronically through the <strong>Microsoft Conference Management Toolkit (CMT)</strong> portal.
+          </p>
+
+          <div class="cmt-url-preview">
+            <span class="js-cmt-url">https://cmt3.research.microsoft.com/AIRCPES2027</span>
+            <button class="btn btn-ghost-dark btn-sm" id="copy-cmt-url-btn" type="button" style="padding:4px 10px;font-size:0.72rem;">
+              Copy Link
+            </button>
+          </div>
+
+          <div style="display:flex;flex-wrap:wrap;gap:12px;margin-block-end:22px;">
+            <a class="btn btn-amber js-cmt-direct-link" href="https://cmt3.research.microsoft.com/AIRCPES2027" target="_blank" rel="noopener">
+              🔗 Go to Microsoft CMT Portal
+            </a>
+            <button class="btn btn-ghost-dark" type="button" data-open-cmt-modal>
+              View Pre-Submission Checklist
+            </button>
+          </div>
+
+          <div style="padding-block-start:18px;border-block-start:1px solid rgba(255,255,255,0.14);">
+            <h4 style="font-size:0.86rem;color:#F8FAFC;margin-block-end:10px;">Download Official Manuscript Templates</h4>
+            <div style="display:flex;flex-wrap:wrap;gap:10px;">
+              <a class="btn btn-ghost-dark btn-sm" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noopener">
+                📘 Springer Word Template (.zip)
+              </a>
+              <a class="btn btn-ghost-dark btn-sm" href="https://www.springer.com/gp/livingreviews/latex-templates" target="_blank" rel="noopener">
+                📐 Springer LaTeX Template (.zip)
+              </a>
+              <button class="btn btn-ghost-dark btn-sm" type="button" data-print-cfp>
+                🖨️ Call for Papers PDF
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Double-Blind & Plagiarism Policy Checklist -->
+        <div class="checklist-card" id="review">
+          <div class="eyebrow" style="margin-block-end:4px;">Quality Assurance</div>
+          <h3 style="font-size:1.25rem;">Double-Blind Peer Review &amp; Publishing Policy</h3>
+          <ul class="checklist-items">
+            <li>
+              <span class="check-icon">1</span>
+              <div>
+                <strong>Strict Double-Blind Review:</strong> Author names, affiliations, email addresses, and self-identifying acknowledgements <em>must be omitted</em> from the submitted PDF manuscript. Non-compliant papers are desk-rejected without review.
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">2</span>
+              <div>
+                <strong>Minimum 3 Independent Reviewers:</strong> Every manuscript is evaluated by at least three domain reviewers (maximum 10 papers assigned per reviewer). Acceptance requires positive recommendations from at least two reviewers and final approval by the Conference Chair.
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">3</span>
+              <div>
+                <strong>Turnitin Plagiarism Screening (&lt; 15%):</strong> All submissions are screened using <strong>Turnitin</strong>. The overall similarity index must be strictly below <strong>15%</strong> (with &lt; 2% from any single source). AI-generated/SciGen-fabricated manuscripts and dual submissions are summarily rejected.
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">4</span>
+              <div>
+                <strong>Formatting &amp; Page Limit:</strong> Maximum <strong>8 pages</strong> including figures, tables, and references in Springer LNEE format, submitted in PDF without page numbers or custom headers/footers.
+              </div>
+            </li>
+            <li>
+              <span class="check-icon">5</span>
+              <div>
+                <strong>Mandatory Registration &amp; Presentation:</strong> At least one author of each accepted paper must register and present the paper at the conference (in-person at MAIT/BCU or live hybrid) for inclusion in the Springer proceedings.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Official Microsoft CMT Acknowledgement (Required by Microsoft CMT for Conference Websites) -->
+      <div class="cmt-ack-box">
+        <strong>Microsoft CMT Service Acknowledgement</strong>
+        The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+      </div>
+    </div>
+  </section>
+
+  <!-- Springer LNEE Publication & Volume Editors -->
+  <section class="tint" id="publication">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Proceedings &amp; Indexing</div>
+          <h2 class="sec-title">Published in Springer Lecture Notes in Electrical Engineering (LNEE)</h2>
+          <p class="sec-desc">
+            Selected accepted and presented papers will be submitted for publication in a two-volume proceedings in the <em>Lecture Notes in Electrical Engineering (LNEE)</em> series by Springer (indexed in Scopus, EI Compendex, INSPEC, SCImago, and SpringerLink).
+          </p>
+        </div>
+      </div>
+
+      <h3 style="font-size:1.15rem;margin-block-end:6px;">Proceedings Volume Editors</h3>
+      <p style="font-size:0.86rem;color:var(--text-dim);">
+        <em>Proceedings of 1st International Conference on Artificial Intelligence for Resilient Cyber-Physical Energy Systems (AIR-CPES 2027)</em>
+      </p>
+
+      <div class="editors-grid" id="editors-grid"></div>
+    </div>
+  </section>
+
+  <!-- Registration & Fee Structure (Placeholder Rates) -->
+  <section id="registration">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Author &amp; Delegate Registration</div>
+          <h2 class="sec-title">Registration Categories &amp; Fee Structure</h2>
+          <p class="sec-desc">
+            Proceedings are financed solely by conference attendance/registration fees and not by direct paper publication charges.
+            <em>(Note: Fee figures below are structured placeholders and can be updated in <code>data.js</code>.)</em>
+          </p>
+        </div>
+        <div class="filter-Tabs" role="group" aria-label="Currency Selector">
+          <button class="filter-btn active" type="button" data-currency-mode="all">Show All (INR &amp; USD/GBP)</button>
+          <button class="filter-btn" type="button" data-currency-mode="inr">Indian Delegates (₹ INR)</button>
+          <button class="filter-btn" type="button" data-currency-mode="intl">International ($ USD / £ GBP)</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="reg-table">
+          <thead>
+            <tr>
+              <th>Registration Category</th>
+              <th>Early-Bird Registration (Until Feb 20, 2027)</th>
+              <th>Standard / Final Registration (By Feb 25, 2027)</th>
+              <th>Inclusions &amp; Entitlements</th>
+            </tr>
+          </thead>
+          <tbody id="reg-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Two-Day Hybrid Program Schedule -->
+  <section class="tint" id="schedule">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Tentative Technical Program</div>
+          <h2 class="sec-title">Two-Day Hybrid Conference Schedule</h2>
+          <p class="sec-desc">
+            Synchronized across New Delhi (IST, UTC+5:30) and Birmingham (GMT, UTC+0:00) for seamless international participation.
+          </p>
+        </div>
+        <div class="filter-Tabs" role="group" aria-label="Timezone Switcher">
+          <button class="filter-btn active" type="button" data-tz-mode="both">Dual Timezone (IST + GMT)</button>
+          <button class="filter-btn" type="button" data-tz-mode="ist">Delhi Time (IST)</button>
+          <button class="filter-btn" type="button" data-tz-mode="gmt">Birmingham Time (GMT)</button>
+        </div>
+      </div>
+
+      <div class="schedule-grid" id="schedule-grid"></div>
+    </div>
+  </section>
+
+  <!-- Organizing Committee -->
+  <section id="committee">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Leadership &amp; Secretariat</div>
+          <h2 class="sec-title">Organizing Committee</h2>
+          <p class="sec-desc">
+            Jointly led by faculty and leadership from Maharaja Agrasen Institute of Technology (MAIT), Delhi, India and Birmingham City University (BCU), UK.
+          </p>
+        </div>
+      </div>
+
+      <div class="committee-groups" id="organizing-grid"></div>
+    </div>
+  </section>
+
+  <!-- Searchable Advisory Board, TPC & 112-Reviewer Directory -->
+  <section class="tint" id="directory">
+    <div class="wrap" id="boards-directory-root">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Global Academic Governance</div>
+          <h2 class="sec-title">Advisory Boards, TPC &amp; Confirmed Review Board</h2>
+          <p class="sec-desc">
+            Search across 200+ distinguished committee members and 112 confirmed peer reviewers from MIT, Tsinghua, UTS, BCU, Warwick, IITs, NITs, and DTU.
+          </p>
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="filter-Tabs" role="tablist" aria-label="Committee Directory Categories">
+          <button class="filter-btn active" type="button" data-dir-tab aria-controls="panel-intl" aria-expanded="true">
+            International Advisory <span id="count-intl"></span>
+          </button>
+          <button class="filter-btn" type="button" data-dir-tab aria-controls="panel-natl" aria-expanded="false">
+            National Advisory <span id="count-natl"></span>
+          </button>
+          <button class="filter-btn" type="button" data-dir-tab aria-controls="panel-tpc" aria-expanded="false">
+            Technical Program Committee <span id="count-tpc"></span>
+          </button>
+          <button class="filter-btn" type="button" data-dir-tab aria-controls="panel-rev" aria-expanded="false">
+            Confirmed Review Board <span id="count-rev"></span>
+          </button>
+        </div>
+
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input
+            type="search"
+            id="directory-search"
+            class="search-input"
+            placeholder="Search member name, university, or country..."
+            aria-label="Search Advisory, TPC, and Reviewers"
+          />
+        </div>
+      </div>
+
+      <!-- Tab Panels using hidden="until-found" for Full Browser Find-in-Page Accessibility -->
+      <div id="panel-intl" class="directory-panel">
+        <div class="directory-grid" id="dir-intl-grid"></div>
+      </div>
+
+      <div id="panel-natl" class="directory-panel" hidden="until-found">
+        <div class="directory-grid" id="dir-natl-grid"></div>
+      </div>
+
+      <div id="panel-tpc" class="directory-panel" hidden="until-found">
+        <div class="directory-grid" id="dir-tpc-grid"></div>
+      </div>
+
+      <div id="panel-rev" class="directory-panel" hidden="until-found">
+        <div class="directory-grid" id="dir-rev-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dual Host Venues (MAIT Delhi & BCU Birmingham) -->
+  <section id="venues">
+    <div class="wrap">
+      <div class="sec-header">
+        <div>
+          <div class="eyebrow">Parallel Hybrid Hubs</div>
+          <h2 class="sec-title">Conference Venues — India &amp; United Kingdom</h2>
+          <p class="sec-desc">
+            Authors and delegates may attend in person at either Maharaja Agrasen Institute of Technology (New Delhi) or Birmingham City University (Birmingham, UK), or participate via interactive hybrid rooms.
+          </p>
+        </div>
+      </div>
+
+      <div class="venues-grid" id="venues-grid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="brand" style="margin-block-end:14px;">
+            <div class="brand-emblem">AC</div>
+            <div class="brand-text">
+              <div class="brand-title">AIR-CPES<span>2027</span></div>
+              <div class="brand-sub">March 8–9, 2027 · India &amp; UK</div>
+            </div>
+          </div>
+          <p style="font-size:0.84rem;line-height:1.6;margin-block-end:16px;">
+            1st International Conference on Artificial Intelligence for Resilient Cyber-Physical Energy Systems. Organised by Maharaja Agrasen Institute of Technology (MAIT), Delhi, India, in collaboration with Birmingham City University (BCU), UK, under the IEEE Smart Cities initiative.
+          </p>
+          <p style="font-size:0.78rem;color:var(--text-on-ink-muted);">
+            Official Website: <a href="https://www.air-cpes.com" style="color:#38BDF8;">https://www.air-cpes.com</a>
+          </p>
+        </div>
+
+        <div>
+          <h4>Resource Persons (India)</h4>
+          <div class="footer-contact-card">
+            <strong>Prof. (Dr.) Neelu Nagpal (Convener)</strong>
+            Dept. of ECE, MAIT, Rohini, Delhi<br />
+            <a href="mailto:neelunagpal@mait.ac.in" style="color:#38BDF8;">neelunagpal@mait.ac.in</a> · +91 98118 93230
+          </div>
+          <div class="footer-contact-card">
+            <strong>Mr. Ravi Sharma (Co-Convener)</strong>
+            Dept. of EEE, MAIT, Rohini, Delhi<br />
+            Tel: +91 98113 87672
+          </div>
+          <div class="footer-contact-card">
+            <strong>Dr. Mini Aggarwal (Organizing Secretary)</strong>
+            Dept. of CSE, MAIT, Rohini, Delhi<br />
+            Tel: +91 87438 91304
+          </div>
+        </div>
+
+        <div>
+          <h4>Resource Person (UK) &amp; Editors</h4>
+          <div class="footer-contact-card">
+            <strong>Dr. Sandeep Dhundhara (Convener, UK)</strong>
+            School of Architecture, Built Environment, Computing &amp; Engineering, BCU, Birmingham B4 7AP, UK<br />
+            <a href="mailto:sandeep.dhundhara2@bcu.ac.uk" style="color:#38BDF8;">sandeep.dhundhara2@bcu.ac.uk</a> · +44 7884 289573
+          </div>
+          <div class="footer-contact-card">
+            <strong>Prof. Sachin Gupta (Co-General Chair &amp; Editor)</strong>
+            Dean (R&amp;I), Dept. of CSE, MAIT, Delhi<br />
+            <a href="mailto:Sachin.gupta@mait.ac.in" style="color:#38BDF8;">Sachin.gupta@mait.ac.in</a>
+          </div>
+          <div class="footer-contact-card">
+            <strong>Prof. Ashwani Kumar (Volume Editor)</strong>
+            Dept. of Electrical Engineering, NIT Kurukshetra<br />
+            <a href="mailto:ashwani.k.sharma@nitkkr.ac.in" style="color:#38BDF8;">ashwani.k.sharma@nitkkr.ac.in</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About AIR-CPES 2027</a></li>
+            <li><a href="#tracks">8 Thematic Tracks &amp; CFP</a></li>
+            <li><a href="#speakers">Keynote Speakers</a></li>
+            <li><a href="#dates">Important Dates</a></li>
+            <li><a href="#submission">Microsoft CMT Submission</a></li>
+            <li><a href="#publication">Springer LNEE Proceedings</a></li>
+            <li><a href="#registration">Registration &amp; Fees</a></li>
+            <li><a href="#committee">Organizing Committee</a></li>
+            <li><a href="#directory">112 Confirmed Reviewers</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026–2027 AIR-CPES 2027 · Maharaja Agrasen Institute of Technology (MAIT), Delhi &amp; Birmingham City University (BCU), UK. All rights reserved.
+        </div>
+        <div>
+          Hosted on GitHub Pages · Peer Review Managed via Microsoft CMT
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Native Dialog Modal for Microsoft CMT Paper Submission -->
+  <dialog class="site-modal" id="cmt-modal" aria-labelledby="cmt-modal-title">
+    <div class="modal-head">
+      <div>
+        <span class="ann-badge" style="margin-block-end:4px;">Microsoft CMT Portal</span>
+        <h3 id="cmt-modal-title" style="font-size:1.15rem;">Submit Manuscript to AIR-CPES 2027</h3>
+      </div>
+      <button class="modal-close" id="close-cmt-modal" type="button" aria-label="Close Modal">✕</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:0.9rem;color:var(--text-dim);margin-block-end:14px;">
+        Before proceeding to the <strong>Microsoft Conference Management Toolkit (CMT)</strong> portal, please verify that your manuscript satisfies the mandatory double-blind review criteria:
+      </p>
+
+      <ul class="checklist-items" style="margin-block-end:20px;">
+        <li>
+          <span class="check-icon">✓</span>
+          <div><strong>Anonymized PDF:</strong> Remove all author names, affiliations, and emails from the manuscript PDF.</div>
+        </li>
+        <li>
+          <span class="check-icon">✓</span>
+          <div><strong>Springer LNEE Format:</strong> Maximum 8 pages, single-column Springer template, no page numbers or running headers.</div>
+        </li>
+        <li>
+          <span class="check-icon">✓</span>
+          <div><strong>Originality &amp; Turnitin:</strong> Overall similarity index must be under 15% with zero AI-generated/fabricated text.</div>
+        </li>
+      </ul>
+
+      <div style="background:var(--paper-2);border:1px solid var(--line);padding:12px 14px;border-radius:var(--radius-sm);margin-block-end:18px;font-size:0.8rem;">
+        <strong>Microsoft CMT Placeholder URL:</strong><br />
+        <code class="js-cmt-url" style="color:var(--primary);word-break:break-all;">https://cmt3.research.microsoft.com/AIRCPES2027</code>
+        <div style="color:var(--text-muted);margin-block-start:4px;font-size:0.74rem;">
+          (Organizer Note: Update <code>cmtSubmissionUrl</code> in <code>data.js</code> once your CMT site shortname is live.)
+        </div>
+      </div>
+
+      <div style="display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;">
+        <a class="btn btn-primary js-cmt-direct-link" href="https://cmt3.research.microsoft.com/AIRCPES2027" target="_blank" rel="noopener">
+          Proceed to Microsoft CMT Portal ↗
+        </a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Data & Application Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
